@@ -4,24 +4,34 @@ section{
   height: 50%;
 }
 /* prima stringa */
-.prima-stringa{
+.prima-stringa .seconda-stringa{
   width: auto;
   height: auto;
-  border: 1px solid black;
 }
-#contenitore{
+.contenitore{
   display: inline-block;
   position: relative;
 }
-#sconto-30{
+.sconto-30{
   background-color: green;
   position: absolute;
   top: 0;
   right: 0;
 }
-#sconto-5{
+.sconto-5{
   background-color: red;
   position: absolute;
   top: 0;
   right: 0;
+}
+.cuore {
+  color: red;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  opacity: 0;
+  font-size: 25px;
+}
+.contenitore:hover .cuore{
+  opacity: 1;
 }
