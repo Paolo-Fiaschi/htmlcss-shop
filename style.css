@@ -1,0 +1,9 @@
+/* prima stringa */
+.prima-stringa{
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+}
+#contenitore{
+  display: inline-block;
+}
