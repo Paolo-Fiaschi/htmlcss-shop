@@ -1,7 +1,8 @@
 /* section */
 section{
-  width: 80%;
+  width: 50%;
   height: 50%;
+  margin: auto;
 }
 /* prima stringa */
 .prima-stringa .seconda-stringa{
