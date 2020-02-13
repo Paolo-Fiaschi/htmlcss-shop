@@ -1,3 +1,8 @@
+/* section */
+section{
+  width: 80%;
+  height: 50%;
+}
 /* prima stringa */
 .prima-stringa{
   width: auto;
@@ -6,4 +11,17 @@
 }
 #contenitore{
   display: inline-block;
+  position: relative;
+}
+#sconto-30{
+  background-color: green;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#sconto-5{
+  background-color: red;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
