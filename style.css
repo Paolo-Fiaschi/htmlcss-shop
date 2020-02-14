@@ -32,6 +32,7 @@ section{
   left: 50%;
   opacity: 0;
   font-size: 25px;
+  transform: translate(-50%, 0%);
 }
 .contenitore:hover .cuore{
   opacity: 1;
